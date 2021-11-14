@@ -1,0 +1,141 @@
+.home-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+  background-color: rgb(214, 169, 153);
+  height: 88.5vh;
+  
+}
+.home-page-info{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.logo{
+  color:#4f4de0 !important;
+  font-weight: bold;
+  padding: 10px;
+  border: 3px solid rgb(160, 86, 98);
+  border-radius: 50%;
+}
+.signupcontainer,.signincontainer{
+  width: 40%;
+  
+  /* border: 1px solid black; */
+  box-shadow: 5px 5px 5px 5px #bbb8b8;
+  padding: 20px;
+  background-color: white;
+ 
+  
+}
+.contact-info{
+  margin-top: 50px;
+}
+.contact-info-item{
+  box-shadow: 0px 0px 3px 1px #cecbcb;
+}
+.contact-info-item img{
+  height:40px ;
+}
+.contact-info-content{
+  padding: 5px 10px;
+  
+  color: #9b8b8b;
+}
+.contact-info-title{
+ color: rgb(98, 98, 243);
+ font-weight: 600;
+}
+
+.contact-form{
+  width: 60%;
+  margin: auto;
+  
+}
+
+.contact-form-container{
+  
+  box-shadow: 0px 0px 3px 1px #cecbcb;
+  margin-top: 50px;
+  padding: 20px;
+}
+.contact-form-title{
+color: rgb(39, 36, 36);
+font-weight: bold;
+font-size: large;
+padding-bottom: 20px;
+}
+
+
+.signup, .signin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  width: 100%;
+  height: 100vh;
+  
+}
+#name, #email,#work,#password,#cpassword,#phone{
+  border-width:0px;
+border:none;
+outline: none;
+
+}
+.form-group{
+  border-bottom: 2px solid burlywood;
+  margin: 5px;
+  padding: 5px;
+}
+.form-button{
+  border-bottom: none;
+}
+.form-submit{
+  border-radius: 4px;
+  padding: 3px 5px;
+}
+.signup-Image, .signin-Image{
+  display: inline-block;
+  padding-left: 50px;
+}
+.signup-form,.signin-form{
+  display: inline-block;
+}
+.signin-form{
+  vertical-align: top;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.signin-Image{
+  padding-left: 5px;
+}
+
+.emp-profile{
+  width: 50%;
+  
+  /* border: 1px solid black; */
+  box-shadow: 5px 5px 5px 5px #bbb8b8;
+  padding: 20px;
+  background-color: white;
+ 
+  
+}
+.profile-edit-btn{
+    width: 100px;
+    border: none;
+    color: blue;
+    outline: none;
+}
+.notfound {
+  width: 40%;
+  padding-top: 200px;
+  margin: auto;
+}
+
+.notfound button a{
+  text-decoration: none !important;
+  font-size: large;
+  color: black;
+  font-weight: bold;
+}
